@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 def create_parser():
     parser = argparse.ArgumentParser(
-        description="Dynamic filtering and selection of diverse homologs from a MSA in A3M format using HHfilter"
+        description="Dynamic filtering and selection of diverse homologs from an MSA in A3M format using HHfilter"
     )
     parser.add_argument(
         "hhfilter",
