@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-(1) Dynamic filtering and selection of diverse homologs using different paiwise sequence identity or sequence coverage cutoffs
+(1) Dynamic filtering and selection of diverse homologs using different pairwise sequence identity or sequence coverage cutoffs
 (2) Generate a plot of number of unique homologs in each cutoff bin
 """
 
@@ -58,7 +58,7 @@ def run(args):
     
     #output files
     outfl_a3m = outdir + "/" + pid + "_sorted_seqs.a3m" #store the homologs based on increasing pairwise seq iden at the defined min sequence coverage
-    outfl_pdf = outdir + "/" + pid + "_sorted_hist.pdf" #show the overall sequence distribution of the dynamic filtering
+    outfl_pdf = outdir + "/" + pid + "_sorted_hist.pdf" #show the histogram of the homologs sorted by pairwise seq iden
 
     fh_out = open(outfl_a3m, "w+")
     
