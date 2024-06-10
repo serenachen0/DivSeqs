@@ -1,9 +1,9 @@
 # DivSeqs
-To construct an initial enzyme library of maximally diverse homologs, we provide a python script that applies HHfilter (from Söding Lab) to screen a MSA based on a defined minimum coverage with the query sequence and an increasing maximum pairwise sequence identity cutoff value.
+To construct an initial enzyme library of maximally diverse homologs, we provide a python script that applies HHfilter (from Söding Lab) to screen an MSA based on a defined minimum coverage with the query sequence and an increasing maximum pairwise sequence identity cutoff value.
 
 Note: intall HH-suite3 before running the python script. Follow the instructions at https://github.com/soedinglab/hh-suite for installation.
 
-File required: a MSA file in A3M format
+File required: an MSA file in A3M format
 
 To run the python script: 
 
