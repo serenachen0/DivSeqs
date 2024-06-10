@@ -31,7 +31,7 @@ def create_parser():
     parser.add_argument(
         "idmin",
         type=int,
-        help="Minimum pairwise sequence identity cutoff",
+        help="Minimum pairwise sequence identity cutoff in dynamic filtering",
     )
     parser.add_argument(
         "outdir",
